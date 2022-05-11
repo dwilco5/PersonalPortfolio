@@ -297,90 +297,63 @@
   .sidebar-demo-content {
     padding-left: 20px;
     overflow-y: scroll;
+
+
+
+
+
+
+
+
+
+    
   }
 
   /* END SIDEBAR DEMO */
 
+
+
+
   .social-media-footer-links {
+    display:-ms-inline-grid;
     text-align: center;
-    background-color: #7c9487;
+    background-color: transparent;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
-  .socials {
-    max-width: 10vw;
-    max-height: 10vh;
-    text-decoration: none;
-  }
+  
 
 
-  
-  /* LINKS */
-  .link {
-    color: blue;
-    border-radius: 6px;
-  }
-  
-  .link:hover {
-    color: darkblue;
-  }
-  
-  .link:focus {
-    color: blue;
-    box-shadow: 0 0 0 2px blue;
-  }
-  
-  .link-secondary {
-    color: #333;
-  }
-  
-  .link-secondary:hover {
-    color: #000000;
-  }
-  
-  .link-secondary:focus,
-  .link-secondary:focus-visible {
-    color: #333;
-    box-shadow: 0 0 0 2px black;
-  }
-  
-  
-  
-  /* END LINKS */
-  
-  /* BUTTONS */
-  .btn {
+  .mylink {
    
-    background-color: #ebdbcd;
-    color: #1d6353;
-    font-weight: 600;
+    
+    background-color: #1d6353;
+    color: #ebdbcd;
+    font-weight: 400;
     font-size: 18px;
-    border: none;
-    padding: 6px 14px;
-    border-radius: 14px;
+    margin: 20px;
+    border: 6px 14px;
+    border-radius: 6px;
     text-decoration: none;
-    margin: 3px;
-
+    padding-block: 6px 8px;
   }
   
-  .btn:hover {
-    background-color: #ffedde;
+  .mylink:hover {
+    background-color: #298a73;
     cursor: pointer;
   }
   
-  .btn-secondary {
-    background-color: transparent;
-    border: 2px solid magenta;
-    color: magenta;
-  }
   
-  .btn-secondary:hover {
-    background-color: transparent;
-    color: darkmagenta;
-    border: 2px solid darkmagenta;
-  }
-  /* END BUTTONS */
+
+
+
+
+  
+
+
+  
+
   
   
   /* SINGLE-GALLERY */
@@ -390,10 +363,11 @@
     grid-gap: 0.25rem;
     list-style-type: none;
     padding-left: 0;
+    display:inline-block
   }
   
   .double-gallery-grid a {
-    display: flex;
+    display: inline-block;
     filter: grayscale(.5);
   }
   
@@ -414,7 +388,7 @@
   .overlay-wrapper {
     position: relative;
     max-width: 350px;
-    display: flex;
+    display: inline;
   }
   
   .overlay-content {
