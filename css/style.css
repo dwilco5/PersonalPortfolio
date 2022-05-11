@@ -266,53 +266,34 @@
     height: auto;
   }
   
-  /* SIDEBAR DEMO */
-  /* Style the side navigation */
-  .sidebar-demo-container {
+  .sidebar-my-container {
     display: grid;
     grid-template-columns: 200px 1fr;
     height: 100vh;
   }
   
-  .sidebar-demo-sidenav {
+  .sidebar-my-sidenav {
     background-color: #1d6353;
   }
   
-  
-  /* Side navigation links */
-  .sidebar-demo-sidenav a {
+
+  .sidebar-my-sidenav a {
     color: #ebdbcd;
     padding: 16px;
     text-decoration: none;
     display: block;
   }
   
-  /* Change color on hover */
-  .sidebar-demo-sidenav a:hover {
+  .sidebar-my-sidenav a:hover {
     background-color: #ebdbcd;
     color: black;
   }
   
-  /* Style the content */
-  .sidebar-demo-content {
+  .sidebar-my-content {
     padding-left: 20px;
     overflow-y: scroll;
 
-
-
-
-
-
-
-
-
-    
   }
-
-  /* END SIDEBAR DEMO */
-
-
-
 
   .social-media-footer-links {
     display:-ms-inline-grid;
@@ -323,11 +304,7 @@
     text-decoration: none;
   }
   
-
-
   .mylink {
-   
-    
     background-color: #1d6353;
     color: #ebdbcd;
     font-weight: 400;
@@ -343,20 +320,7 @@
     background-color: #298a73;
     cursor: pointer;
   }
-  
-  
 
-
-
-
-  
-
-
-  
-
-  
-  
-  /* SINGLE-GALLERY */
   .double-gallery-grid {
     grid;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
@@ -381,10 +345,6 @@
     }
   }
   
-  /* END SINGLE-GALLERY */
-  
-  
-  /* OVERLAY */
   .overlay-wrapper {
     position: relative;
     max-width: 350px;
@@ -405,12 +365,9 @@
     background-color: rgba(127, 17, 224, .25);
   }
   
-  
   .overlay-content:hover {
     opacity: 1;
   }
-  
-  /* END OVERLAY */
   
   .header {
     padding: 16px;
